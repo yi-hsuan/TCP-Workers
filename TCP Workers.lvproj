@@ -3,6 +3,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -14,6 +15,9 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Listener.lvclass" Type="LVClass" URL="../Workers/Listener/Listener.lvclass"/>
 		<Item Name="Server Client.lvclass" Type="LVClass" URL="../Workers/Server Client/Server Client.lvclass"/>
+		<Item Name="Network End Point.lvclass" Type="LVClass" URL="../Workers/Network End Point/Network End Point.lvclass"/>
+		<Item Name="TCP Send.lvclass" Type="LVClass" URL="../Workers/TCP Send/TCP Send.lvclass"/>
+		<Item Name="TCP Receive.lvclass" Type="LVClass" URL="../Workers/TCP Receive/TCP Receive.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
