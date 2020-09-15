@@ -13,7 +13,11 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="temp" Type="Folder">
+			<Item Name="Untitled 4.vi" Type="VI" URL="../temp/Untitled 4.vi"/>
+		</Item>
 		<Item Name="Listener.lvclass" Type="LVClass" URL="../Workers/Listener/Listener.lvclass"/>
+		<Item Name="Opener.lvclass" Type="LVClass" URL="../Workers/Opener/Opener.lvclass"/>
 		<Item Name="Server Client.lvclass" Type="LVClass" URL="../Workers/Server Client/Server Client.lvclass"/>
 		<Item Name="Network End Point.lvclass" Type="LVClass" URL="../Workers/Network End Point/Network End Point.lvclass"/>
 		<Item Name="TCP Send.lvclass" Type="LVClass" URL="../Workers/TCP Send/TCP Send.lvclass"/>
